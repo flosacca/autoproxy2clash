@@ -4,7 +4,7 @@ Convert rule list from AutoProxy format (e.g. GFWList) to Clash format.
 
 ## Usage
 
-Get GFWList (if you can access GitHub):
+Get GFWList:
 ```
 ./gfwlist.sh > rules.yml
 ```
