@@ -20,7 +20,7 @@ require 'base64'
 
 if __FILE__ == $0
   input = ARGF.read
-  if input !~ /[^a-zA-Z0-9+\/\s]/
+  unless input =~ %r{[^[:alnum:]+/=\s]}
     input = Base64.decode64(input)
   end
 
