@@ -6,7 +6,7 @@ Convert rule list from AutoProxy format (e.g. GFWList) to Clash format.
 
 Get GFWList:
 ```
-./gfwlist.sh > rules.yml
+./gfwlist.rb > rules.yml
 ```
 
 Convert local file (output raw strings):
